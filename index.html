@@ -9,12 +9,23 @@
   <link rel="icon" href="favicon.png">
   <style>
 
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
     body {
+      margin: 0;
+      padding: 2rem;
       font-family: Quattrocento;
       background: #0074D9;
       color: #fff;
       line-height: 1.6;
       animation: glow;
+
+      height: calc(100vh - 4rem);
+      display: flex;
+      align-items: center;
     }
 
     a {
@@ -31,6 +42,7 @@
       text-transform: uppercase;
       font-size: 5rem;
       max-width: 15rem;
+      margin-top: 0;
     }
 
     .subtitle {
@@ -41,14 +53,19 @@
     .content {
       max-width: 14rem;
     }
+
+    .wrapper { }
+
   </style>
 </head>
 <body>
-  <h1 class="title">More Than Mango</h1>
-  <div class='content'>
-    <h2 class="subtitle">We are a small development studio building products for web and mobile.</h2>
-    <div><a href="mailto:hello@morethanmango.com?subject=Hello">hello@morethanmango.com</a></div>
-    <div><a href="https://twitter.com/morethanmango">@morethanmango</a></div>
+  <div class="wrapper">
+    <h1 class="title">More Than Mango</h1>
+    <div class='content'>
+      <h2 class="subtitle">We are a small development studio building products for web and mobile.</h2>
+      <div><a href="mailto:hello@morethanmango.com?subject=Hello">hello@morethanmango.com</a></div>
+      <div><a href="https://twitter.com/morethanmango">@morethanmango</a></div>
+    </div>
   </div>
 </body>
 </html>
